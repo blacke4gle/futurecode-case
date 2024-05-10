@@ -1,0 +1,52 @@
+.nav-links {
+  font-size: 0.95rem;
+  color: black;
+}
+
+#basic-nav-dropdown {
+  font-size: 0.95rem;
+}
+
+#seeMoreLink {
+  color: #607d8b;
+}
+
+#seeMoreLink:hover {
+  color: red;
+  font-weight: 400;
+}
+.dropdown-menu {
+  padding: 1em;
+}
+
+.dropdown-item:hover {
+  outline: none;
+  box-shadow: none;
+  background: none;
+}
+.dropdown-item a:hover {
+  color: red;
+}
+
+.dropdown-item {
+  height: 2em;
+  padding-left: 0em;
+}
+
+.dropdown-header {
+  font-weight: 600;
+  padding-left: 0em;
+}
+
+@media only screen and (min-width: 600px) {
+  .eventsNav {
+    width: 22em;
+    padding-bottom: 1em;
+  }
+}
+/* .APP {
+  background: #000000;
+  background: -webkit-linear-gradient(to right, #949494, #654ea3);
+  background: linear-gradient(to right, #6f6f6f, #654ea3);
+  min-height: 100vh;
+} */
